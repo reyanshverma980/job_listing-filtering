@@ -5,10 +5,10 @@ function JobsCard(props) {
 
   if (props.job.featured) {
     classes =
-      " w-9/12 relative bg-white border-l-[6px] border-l-desaturatedDarkCyan flex flex-col lg:flex-row lg:items-center gap-4 mx-auto p-8 rounded-lg shadow-xl";
+      " w-11/12 md:w-9/12 relative bg-white border-l-[6px] border-l-desaturatedDarkCyan flex flex-col lg:flex-row lg:items-center gap-4 mx-auto p-8 rounded-lg shadow-xl";
   } else {
     classes =
-      " w-9/12 relative bg-white flex flex-col lg:flex-row lg:items-center gap-4 mx-auto p-8 rounded-lg shadow-xl";
+      "w-11/12 md:w-9/12 relative bg-white flex flex-col lg:flex-row lg:items-center gap-4 mx-auto p-8 rounded-lg shadow-xl";
   }
 
   return (
